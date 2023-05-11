@@ -1,0 +1,115 @@
+/* common start */
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #102757;
+}
+/* common end */
+/* header start */
+header{
+    border-bottom: 2px solid #eeeeee;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 10%;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 55%;
+    /* border: 1px solid red; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 11px 25px;
+    display: block;
+    color: #102757;
+    transition: 2s;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover {
+    color: #008aff;
+}
+/* header end */
+
+
+/* banner start */
+
+.banner {
+    padding: 70px 0px 80px 0px;
+}
+
+.container2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+    overflow: hidden;
+
+}
+.banner-h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+}
+.banner-h1 span {
+    color: #008aff;
+}
+.banner-p {
+    line-height: 25px;
+}
+
+.b-img {
+    width: 80%;
+    margin: 0 auto;
+}
+.b-img img {
+    width: 100%;
+}
+
+/* banner end */
+/* feature section start */
+
+.feature{
+   padding-bottom: 70px; 
+}
+.f-left{
+    width: 45%;
+    border: 1px solid greenyellow;
+    float: left;
+    text-align: right;
+}
+.f-left h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #f15767;
+}
+.f-left p{}
+
+.f-right{
+    width: 45%;
+    border: 1px solid greenyellow;
+    float: right;
+}
+.f-right h1 {}
+/* feature section end */
